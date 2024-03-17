@@ -1,0 +1,5 @@
+# Ignore local envoronment file
+.env
+
+# Ignore the local environment folder
+.venv/
