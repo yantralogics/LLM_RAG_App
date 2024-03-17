@@ -3,3 +3,6 @@
 
 # Ignore the local environment folder
 .venv/
+
+## Ignore Large sqlite files
+docs/HarryPotterBooks_1-3
