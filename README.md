@@ -9,7 +9,7 @@ This is a basic application that allows users to upload PDF files and chat with 
 
 The application uses following frameworks to make this happen.
 
- - Open AI gpt 3.5 Turbo model accessed via Open AI API
+ - Open AI gpt 3.5 Turbo model accessed via Open AI API (*Make sure you have a valid open AI api in the .env file )
  - Langchain ChatOpenAI, PromptTemplate & ConversationalRetrieval Chain, ConversationBufferMemory
  - Chroma vector store
  - Streamlit for user interface 
