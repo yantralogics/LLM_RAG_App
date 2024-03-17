@@ -154,8 +154,17 @@ def main():
         if reset:
             reset_conversation()
     if selected == "Instructions":
-        st.write("Here are the instructions")
+        st.markdown('# Chat with your documents application :books:')
+        st.markdown('## Upload your own documents and chat with them! :fire:')
+        st.markdown('### Instructions')
+        st.markdown('- Use the main menu to nagivate to Upload page or select page. Upload page allows you to upload one or more documents.')
+        st.markdown('- Once the documents are uploaded, press Process button to create a local database for RAG to look through.')
+        st.markdown('- You may chat with the document using the chat input that will become visible after documents have been processed.')
+        st.markdown('- By default, the app will remember the chat history to preserve context, so if you need to start a new chat, please press Reset Chat button.')
+        st.markdown('- You may also leverage Reset Chat button in case you need to add a new document or select existing file set.')
 
+        st.markdown(' #### Note that this app requires a valid OPEN AI API Key to run, so update the .env file accordingly.')
+        
 
         
 
